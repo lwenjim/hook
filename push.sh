@@ -6,6 +6,7 @@ queues=(
     '.hook.sh'
     '.hook.php'
     '.hook-apidoc.sh'
+    '.bullet-init.sh'
 )
 
 for queue in "${queues[@]}" ; do
