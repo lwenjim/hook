@@ -1,0 +1,81 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+
+127.0.0.1   	localhost
+127.0.0.1   	dummy-host.example.com
+255.255.255.255	broadcasthost
+::1             localhost localhost.test
+
+10.160.5.10     gitlab.yx
+
+192.168.56.101  localdev
+192.168.56.101  dev-question.classba.com.cn
+10.160.5.28     dev-xiaodian-v5-temp.classba.com.cn
+10.160.5.28     com-course.classba.cn
+10.160.5.28     dev-v3-op.classba.cn
+
+# 192.168.56.101  dev-op.classba.cn
+10.160.5.28     dev-op.classba.cn
+192.168.56.101  dev-dpool.classba.cn
+192.168.56.101  dev-resource.classba.com.cn
+192.168.56.101  dev-course-v3.classba.cn
+192.168.56.101  dev-course-v5-temp.classba.cn
+192.168.56.101  dev-hsr-v5-temp.classba.cn
+192.168.56.101  dev-dpool-temp.classba.cn
+192.168.56.101  dev-hsr.classba.cn
+192.168.56.101  dev-op-v5-temp.classba.cn
+192.168.56.101  dev-op-v5.classba.cn
+192.168.56.101  dev-course.classba.cn 
+192.168.56.101  dev-qb.classba.cn
+192.168.56.101	dev-course-v2-v5-temp.classba.cn
+192.168.56.101	dev-dpool-v5-temp.classba.cn
+192.168.56.101  dev-topic.classba.cn
+192.168.56.101  dev-dpool-v5.classba.cn
+
+192.168.56.101  redisadmin.test
+192.168.56.101  yaf.test
+192.168.56.101  xdapi.yx
+192.168.56.101  treesoft.test
+192.168.56.101  xtapi.yx dev-v3-question.classba.com.cn
+192.168.56.101  course-v5.xplusedu.com
+192.168.56.101  flow-bundle.xplusedu.com
+192.168.56.101  hsr.xplusedu.com
+192.168.56.101  default.test
+192.168.56.101  dev-course-v5.classba.cn
+172.16.16.101   ldap.songshu.yx
+172.16.16.101   www.songshu.yx
+172.16.16.101   test-datura.internal.classba.cn
+
+10.160.5.17     dev-course.171xue.com 
+10.160.5.17     dev-x.classba.cn 
+10.160.5.17     dev.account.classba.cn
+10.160.5.17     dev-s.51yxedu.com
+10.160.5.17     dev-api.51yxedu.com
+10.160.5.17     dev-course.classba.cn
+10.160.5.17     dev-qb.classba.cn
+10.160.5.17     dev-resource.classba.cn
+10.160.5.17     dev-course.51yxedu.com
+10.160.5.17     dev.md_offline.classba.cn
+10.160.5.17     dev
+10.160.5.17     xtapi.yx
+106.14.172.5    test-api.51yxedu.com
+106.14.172.5    test
+172.16.18.124   dev-xiaoticms.classba.cn
+
+#139.196.136.251 op.classba.cn
+139.196.136.251 v5-op.classba.cn
+139.196.136.251 api.xplusedu.com
+
+10.173.9.35     yx.hsr.com
+10.173.9.35     yx.question_v5.com
+
+10.160.5.28	    dbdev2
+10.160.5.28	    dev2
+10.173.8.164    remotedev
+
+10.160.5.28     apidoc.classba.com.cn
+106.14.172.5    v5-op.test.classba.cn

@@ -1,0 +1,44 @@
+127.0.0.1	localhost
+127.0.0.1   jim
+
+::1         ip6-localhost ip6-loopback
+fe00::0     ip6-localnet
+ff00::0     ip6-mcastprefix
+ff02::1     ip6-allnodes
+ff02::2     ip6-allrouters
+
+
+127.0.0.1   dev-course-v2-v5-temp.classba.cn
+127.0.0.1   dev-dpool-v5-temp.classba.cn
+10.160.5.28 dev-xiaodian.classba.com.cn
+10.160.5.28 dev-question.classba.com.cn
+10.160.5.28 dev-xiaodian-v5-temp.classba.com.cn
+127.0.0.1   dev-question.classba.com.cn
+127.0.0.1   dev-course-v3.classba.cn
+127.0.0.1   dev-course.classba.com.cn
+127.0.0.1   dev-course.classba.cn
+127.0.0.1   dev-op.classba.cn
+127.0.0.1   dev-topic.classba.cn
+127.0.0.1   treesoft.test
+127.0.0.1   dev-dpool.classba.cn
+127.0.0.1   dev-course-v5.classba.cn
+127.0.0.1   xtapi.yx
+127.0.0.1   dev-dpool.classba.cn
+127.0.0.1   dev-dpool-temp.classba.cn
+127.0.0.1   dev-qb.classba.cn
+127.0.0.1   dev-v2t.171xue.com
+127.0.0.1   xdapi.yx dev-v3-question.classba.com.cn
+
+10.160.5.10 gitlab.yx
+10.160.5.17 dev-x.classba.cn
+10.160.5.17 dev.account.classba.cn
+10.160.5.17 dev-s.51yxedu.com
+10.160.5.17 dev-api.51yxedu.com
+10.160.5.17 dev-qb.classba.cn
+10.160.5.17 dev-resource.classba.cn
+10.160.5.17 dev-course.51yxedu.com
+10.160.5.17 dev.md_offline.classba.cn
+10.160.5.17 dev
+
+106.14.172.5  test-api.51yxedu.com
+
