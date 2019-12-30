@@ -5,7 +5,6 @@ if [ ! -n "$1" ];then
   exit
 fi
 
-
 /usr/bin/apidoc -i $1 -o /data/wwwroot/yx_course_doc/
 
 mkdir /tmp/apidoc
