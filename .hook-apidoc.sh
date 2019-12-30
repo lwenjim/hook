@@ -8,8 +8,8 @@ fi
 /usr/bin/apidoc -i $1 -o /data/wwwroot/yx_course_doc/
 
 mkdir /tmp/apidoc
-cp $1 /tmp/apidoc
-cp /data/wwwroot/yx_bullet /tmp/apidoc
-cp /data/wwwroot/yx_bullet/apidoc.json /tmp/apidoc
+cp -r $1 /tmp/apidoc/course
+cp -r /data/wwwroot/yx_bullet/app /tmp/apidoc/cms
+cp -r /data/wwwroot/yx_bullet/apidoc.json /tmp/apidoc
 cd /tmp/apidoc
-/usr/bin/apidoc -i $1 -o /data/wwwroot/apidoc/
+/usr/bin/apidoc -i /tmp/apidoc -o /data/wwwroot/apidoc/
