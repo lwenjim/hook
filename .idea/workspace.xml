@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1d92ca-a96d-42bb-a129-28dc7bafa2b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/env/status.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -45,7 +45,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/env/status.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -55,10 +55,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/config/hosts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/config/hosts-dev">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.hook.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="e#22#755#0#PHP" expanded="true" />
+                <element signature="e#761#1216#0#PHP" expanded="true" />
+                <element signature="e#1222#1599#0#PHP" expanded="true" />
+                <element signature="e#1605#1715#0#PHP" expanded="true" />
+                <element signature="e#1721#2402#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.hook-apidoc.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -84,6 +114,8 @@
         <option value="$PROJECT_DIR$/.hook.php" />
         <option value="$PROJECT_DIR$/push.sh" />
         <option value="$PROJECT_DIR$/env/status.sh" />
+        <option value="$PROJECT_DIR$/.hook-apidoc.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -104,17 +136,6 @@
             <path>
               <item name="hook" type="b2602c69:ProjectViewProjectNode" />
               <item name="hook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hook" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hook" type="462c0819:PsiDirectoryNode" />
-              <item name="env" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574921360063</updated>
       <workItem from="1574921361379" duration="2354000" />
-      <workItem from="1575110079308" duration="1209000" />
+      <workItem from="1575110079308" duration="2695000" />
+      <workItem from="1577688429990" duration="1059000" />
     </task>
     <task id="LOCAL-00001" summary="新增yx_bullet">
       <created>1574923865006</created>
@@ -168,17 +190,38 @@
       <option name="project" value="LOCAL" />
       <updated>1574923865006</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增yx_bullet">
+      <created>1577688878472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577688878472</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增yx_bullet">
+      <created>1577688988940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577688988940</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新增yx_bullet">
+      <created>1577689447125</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577689447125</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3563000" />
+    <option name="totallyTimeSpent" value="6108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49548534" visible="true" weight="0.23626374" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49548534" visible="true" weight="0.16666667" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32830188" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -188,14 +231,14 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3296582" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32995495" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49980307" visible="true" weight="0.26131222" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32918552" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49980307" visible="true" weight="0.26131222" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50019693" side_tool="true" weight="0.40595612" />
       <window_info anchor="right" id="Database" order="0" sideWeight="0.5045147" side_tool="true" weight="0.21518987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Structure" order="4" sideWeight="0.5016538" side_tool="true" visible="true" weight="0.14346765" />
+      <window_info anchor="right" id="Structure" order="4" sideWeight="0.5016538" side_tool="true" visible="true" weight="0.21611722" />
       <window_info anchor="right" id="Favorites" order="5" sideWeight="0.50373137" side_tool="true" weight="0.21518987" />
       <window_info anchor="right" id="Redis Servers" order="6" />
     </layout>
@@ -215,27 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.hook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bullet-init.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/push.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -247,6 +269,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/config/hosts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bullet-init.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/config/hosts-dev">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.hook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="e#22#755#0#PHP" expanded="true" />
+            <element signature="e#761#1216#0#PHP" expanded="true" />
+            <element signature="e#1222#1599#0#PHP" expanded="true" />
+            <element signature="e#1605#1715#0#PHP" expanded="true" />
+            <element signature="e#1721#2402#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.hook-apidoc.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
