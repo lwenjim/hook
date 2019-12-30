@@ -38,9 +38,8 @@ new class
             ssh2_auth_password($connection = ssh2_connect('localhost', 22), "root", "Hello2018.!@#");
         }
         $shell  = ssh2_shell($connection, 'bash');
-        $output = $this->user_exec($shell, $command);
+        $this->user_exec($shell, $command);
         fclose($shell);
-        echo $output;
     }
 
     protected function getParams()
@@ -51,23 +50,12 @@ new class
     protected function user_exec($shell, $cmd)
     {
         fwrite($shell, $cmd . "\n");
-        $output     = "";
-        $start      = false;
         $start_time = time();
         $max_time   = 2;
         while (((time() - $start_time) < $max_time)) {
             $line = fgets($shell);
             echo $line;
             continue;
-            if (!strstr($line, $cmd)) {
-                if (preg_match('/\[start\]/', $line)) {
-                    $start = true;
-                } elseif (preg_match('/\[end\]/', $line)) {
-                    return $output;
-                } elseif ($start) {
-                    $output[] = $line;
-                }
-            }
         }
     }
 };
