@@ -11,7 +11,7 @@ new class
             'yx_course'         => ['/data/wwwroot/yx_course' => [__DIR__ . "/.hook-apidoc.sh /data/wwwroot/yx_course/app"]],
             'yx_course_doc'     => ['/data/wwwroot/yx_course_doc'],
             'opCenter'          => ['/data/wwwroot/opCenter'],
-            'op_web'            => ['/data/wwwroot/opWeb'],
+            'op_web'            => ['/data/wwwroot/op_web'],
             'yx_bullet'         => ['/data/wwwroot/yx_bullet' => [__DIR__ . "/.bullet-init.sh"]],
         ];
         return $map[$name];
