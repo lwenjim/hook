@@ -26,8 +26,10 @@ new class
         foreach ($dir as $key => $com) {
             $path = is_array($com) ? $key : $com;
             $this->exec(__DIR__ . "/.hook.sh {$path}");
-            foreach ($com as $c) {
-                $this->exec($c);
+            if (is_array($com) && !empty($com)) {
+                foreach ($com as $c) {
+                    $this->exec($c);
+                }
             }
         }
     }
