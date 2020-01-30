@@ -14,5 +14,6 @@ echo $PATH 2>&1 >>$LOG
 cd $PATH
 /usr/bin/date >>$LOG
 $g stash 2>&1 >>$LOG
+$g clean  -d  -fx "" 2>&1 >>$LOG
 $g pull 2>&1 >>$LOG
 /usr/bin/cat $LOG

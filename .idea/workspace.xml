@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a1d92ca-a96d-42bb-a129-28dc7bafa2b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.hook.php" beforeDir="false" afterPath="$PROJECT_DIR$/.hook.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.hook.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.hook.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,17 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.hook.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-              <folding>
-                <element signature="e#22#816#0#PHP" expanded="true" />
-                <element signature="e#1283#1627#0#PHP" expanded="true" />
-                <element signature="e#1633#1743#0#PHP" expanded="true" />
-                <element signature="e#1749#2041#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -51,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.hook.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -74,21 +68,23 @@
         <option value="$PROJECT_DIR$/.hook-apidoc.sh" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.hook.php" />
+        <option value="$PROJECT_DIR$/.hook.sh" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1680" />
-    <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1417" />
+    <option name="x" value="210" />
+    <option name="y" value="145" />
+    <option name="width" value="1260" />
+    <option name="height" value="732" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,7 +96,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +137,8 @@
       <workItem from="1575110079308" duration="2695000" />
       <workItem from="1577688429990" duration="1331000" />
       <workItem from="1578722824314" duration="1319000" />
-      <workItem from="1578918594408" duration="173000" />
+      <workItem from="1578918594408" duration="350000" />
+      <workItem from="1580373069932" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="新增yx_bullet">
       <created>1574923865006</created>
@@ -207,17 +203,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578724113264</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增yx_bullet">
+      <created>1578918834036</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578918834036</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7872000" />
+    <option name="totallyTimeSpent" value="8105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="23" width="2560" height="1417" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="976" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49548534" visible="true" weight="0.110802226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49548534" visible="true" weight="0.11172161" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32830188" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -228,13 +231,13 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32918552" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49980307" visible="true" weight="0.17433962" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49980307" weight="0.17433962" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50019693" side_tool="true" weight="0.40595612" />
       <window_info anchor="right" id="Database" order="0" sideWeight="0.5045147" side_tool="true" weight="0.21518987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Structure" order="4" sideWeight="0.5016538" side_tool="true" visible="true" weight="0.14058776" />
+      <window_info anchor="right" id="Structure" order="4" sideWeight="0.5016538" side_tool="true" visible="true" weight="0.14041515" />
       <window_info anchor="right" id="Favorites" order="5" sideWeight="0.50373137" side_tool="true" weight="0.21518987" />
       <window_info anchor="right" id="Redis Servers" order="6" />
       <window_info anchor="right" id="LuaJ" order="7" />
@@ -300,23 +303,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.hook.sh">
+    <entry file="file://$PROJECT_DIR$/.hook.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.hook.php">
+    <entry file="file://$PROJECT_DIR$/.hook.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding>
-            <element signature="e#22#816#0#PHP" expanded="true" />
-            <element signature="e#1283#1627#0#PHP" expanded="true" />
-            <element signature="e#1633#1743#0#PHP" expanded="true" />
-            <element signature="e#1749#2041#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
