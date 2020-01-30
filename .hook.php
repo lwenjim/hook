@@ -10,7 +10,7 @@ new class
             'xiaoti_cms'        => ['/data/wwwroot/xiaoti_cms'],
             'yx_course'         => ['/data/wwwroot/yx_course' => [__DIR__ . "/.hook-apidoc.sh /data/wwwroot/yx_course/app"]],
             'yx_course_doc'     => ['/data/wwwroot/yx_course_doc'],
-            'opCenter'          => ['/data/wwwroot/opCenter'],
+            'opCenter'          => ['/data/wwwroot/opCenter' => [__DIR__.'/.opCenter.sh']],
             'op_web'            => ['/data/wwwroot/op_web'],
             'yx_bullet'         => ['/data/wwwroot/yx_bullet' => [__DIR__ . "/.bullet-init.sh"]],
         ];

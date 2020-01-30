@@ -7,6 +7,7 @@ queues=(
     '.hook.php'
     '.hook-apidoc.sh'
     '.bullet-init.sh'
+    '.opCenter.sh'
 )
 
 for queue in "${queues[@]}" ; do
