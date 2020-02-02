@@ -42,9 +42,9 @@ new class
         if (empty($connection)) {
             ssh2_auth_password($connection = ssh2_connect('localhost', 22), "root", "Hello2018.!@#");
         }
-        $shell = ssh2_shell($connection, 'bash');
-        $this->user_exec($shell, $command);
-        fclose($shell);
+        $root = ssh2_shell($connection, 'bash');
+        $this->user_exec($root, $command);
+        fclose($root);
     }
 
     protected function getParams()
@@ -52,18 +52,18 @@ new class
         return json_decode(file_get_contents("php://input"), true);
     }
 
-    protected function user_exec($shell, $cmd)
+    protected function user_exec($root, $shell)
     {
-        fwrite($shell, $cmd . "\n");
+        fwrite($root, $shell . "\n");
         $start_time = time();
         $max_time   = 2;
         while (((time() - $start_time) < $max_time)) {
-            $line = fgets($shell);
+            $line = fgets($root);
             echo $line;
             $filename = null;
             if ($this->execTime > 0 && false == ($this->check($line, $filename))) {
-                $this->user_exec($shell, $delete = __DIR__ . '/.delete-lock.sh '.$filename);
-                $this->user_exec($shell, $cmd);
+                $this->user_exec($root, $delete = __DIR__ . '/.delete-lock.sh ' . $filename);
+                $this->user_exec($root, $shell);
                 $this->execTime--;
                 break;
             }
