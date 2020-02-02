@@ -27,7 +27,7 @@ new class
         $dir    = $this->getPath($params['repository']['name']);
         foreach ($dir as $key => $com) {
             $path = is_array($com) ? $key : $com;
-            $this->exec(__DIR__ . "/.hook.sh {$path}");
+            $this->exec(__DIR__ . "/.hook.sh {$path} {$params['repository']['name']}");
             if (is_array($com) && !empty($com)) {
                 foreach ($com as $c) {
                     $this->exec($c);

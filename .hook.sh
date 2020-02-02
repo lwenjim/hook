@@ -5,15 +5,13 @@ if [ ! -n "$1" ];then
     exit
 fi
 
-PATH=$1
-LOG=/tmp/deploy.log
-g=/usr/bin/git
+git_bin=/usr/bin/git
 
-echo '' >$LOG
-echo $PATH 2>&1 >>$LOG
-cd $PATH
-/usr/bin/date >>$LOG
-$g stash 2>&1 >>$LOG
-$g clean  -fx "" 2>&1 >>$LOG
-$g pull 2>&1 >>$LOG
-/usr/bin/cat $LOG
+cd $1
+$git_bin stash
+
+if [[ "$2" == "op_web" ]]; then
+    $git_bin clean -d -fx ""
+fi
+
+$git_bin pull
