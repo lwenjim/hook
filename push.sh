@@ -8,6 +8,7 @@ queues=(
     '.hook-apidoc.sh'
     '.bullet-init.sh'
     '.opCenter.sh'
+    '.delete-lock.sh'
 )
 
 for queue in "${queues[@]}" ; do
